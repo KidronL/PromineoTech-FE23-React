@@ -19,7 +19,7 @@ export default class Login extends React.Component {
                 <button type="submit" className="btn btn-primary mb-3">Log In</button>
             </form>
             <button className="btn btn-warning mb-3">Forgot Password?</button><br />
-            <button className="btn btn-success-emphasis">Create Account</button>
+            <button className="btn btn-successs">Create Account</button>
         </div>
         )
     }
