@@ -6,7 +6,7 @@ export default class Login extends React.Component {
         return (
             //wrapping the form in a div to be styled
         <div id="formDiv" className="container-sm border rounded bg-secondary p-4 position-absolute top-50 start-50 translate-middle align-items-center">
-            <h2 className="pb-4">Login</h2>
+            <h3 className="pb-4">Login</h3>
             <form id="loginForm align-items-center">
                 <div className="mb-3">
                     <label htmlFor="emlInpt" className="form-label">Email Address</label>
