@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default class Movies extends React.Component {
     constructor(props) {
         super(props)
@@ -14,7 +15,11 @@ export default class Movies extends React.Component {
     render() {
         return (
             <div>
-                
+               <img onScroll={this.img} alt={this.title}></img>
+               <h4>
+                {this.title} {this.year}
+                </h4>
+               <p>{this.info}</p>
             </div>
         )
     }
